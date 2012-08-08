@@ -1,5 +1,5 @@
 # Dutch Cookie Law Script (Text is currently in Dutch, English version coming soon)
-- We are not responsible for any damage created or not prevented by this script
+<sub>We are not responsible for any damage created or not prevented by this script</sub>
 ## Installation
 Just copy the files into the root of your website. If .htaccess already exists, copy the contents of the kiwicookie htaccess and add it to the top of your existing file. Then chmod the folder 'log' inside 'script' (and the access.txt file inside it) to 777. You should be good to go now.
 As for now, you cannot install this script on a non-apache server. This probably won't be a problem if you're hosting on a shared server, because those servers mostly run on apache. Nginx and LightHTTPd versions are coming soon.
