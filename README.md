@@ -1,7 +1,7 @@
 # kiwicookie
 Dutch Cookie Law Script (Text is currently in Dutch, English version coming soon)  
 <sub>We are not responsible for any damage created or not prevented by this script</sub>
-### Installation
+## Installation
 Just copy the files into the root of your website. If .htaccess already exists, copy the contents of the kiwicookie htaccess and add it to the top of your existing file. 
 
 ```htaccess
@@ -17,6 +17,7 @@ There are a few configuration options in the file config.php, located in the 'sc
 
 As for now, you cannot install this script on a non-apache server. This probably won't be a problem if you're hosting on a shared server, because those servers mostly run on apache. Nginx and LightHTTPd versions are coming soon.
 
+## Details
 ### Does it work with my site?
 Yes it does. It works on any website, including sites powered by CMS' like WordPress and Joomla. If you do however run into any problems, you can always post your error as an issue on GitHub.
 
@@ -26,5 +27,5 @@ Kiwicookie uses nothing more than htaccess and PHP. The htaccess file rewrites a
 ### Cookie Law
 The script complies with the Dutch cookie regulation, which is an extreme version of the EU version. In contrast to the EU cookie regulation it forces you to use an opt-in instead of an opt-out. It's also required to ask permission for external tools like Google Analytics and Google AdSense. You cannot set any cookies before you have explicit permission. The only good way to do that is to place a wall before your website so that the visitor cannot visit the website before he accepts cookies and analytics tools.
 
-### License
+## License
 This script uses the [Creative Commons Attribution-NonCommercial 3.0 Unported license](http://creativecommons.org/licenses/by-nc/3.0/legalcode). You can find an easy readable and clear explanation of the license [here](http://creativecommons.org/licenses/by-nc/3.0/). If you want to use this script for commercial purposes you can [contact us](mailto:info@lexerim.nl).
