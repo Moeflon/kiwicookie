@@ -20,7 +20,7 @@ As for now, you cannot install this script on a non-apache server. This probably
 
 ## Details
 ### Does it work with my site?
-Yes it does. It works on any website, including sites powered by CMS' like WordPress and Joomla. If you do however run into any problems, you can always post your error as an issue on GitHub.
+Yes it does. It works on any website, including sites powered by CMS' like WordPress and Joomla. If you do however run into any problems, you can always post your error as an [issue on GitHub](https://github.com/kiwiboom/kiwicookie/issues).
 
 ### How does it work
 Kiwicookie uses nothing more than htaccess and PHP. The htaccess file rewrites all calls to the PHP script, unless a cookie (ironically enough) was set by the PHP script. That PHP script informs the users that your site uses cookies and either redirects them to another page (if they refuse to accept) or sets a cookie (if they accept).
