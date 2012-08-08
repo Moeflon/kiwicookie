@@ -12,7 +12,7 @@ RewriteCond %{HTTP_COOKIE} !kiwicookie=kiwicookieVal [NC]
 RewriteRule . script/cookie.php [L]
 ```
 
-Then chmod the folder 'log' (and its contents) inside 'script'  to 777. 
+Then chmod the folder 'log' (and its contents) inside 'script'  to `777`. 
 There are a few configuration options in the file config.php, located in the 'script' folder. You can edit these options as you like.
 
 ### Apache Limitation
