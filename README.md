@@ -1,5 +1,6 @@
 # kiwicookie
-Dutch Cookie Law Script (Text is currently in Dutch, English version coming soon)
+Dutch Cookie Law Script (Text is currently in Dutch, English version coming soon)  
+
 <sub>We are not responsible for any damage created or not prevented by this script</sub>
 ### Installation
 Just copy the files into the root of your website. If .htaccess already exists, copy the contents of the kiwicookie htaccess and add it to the top of your existing file. 
