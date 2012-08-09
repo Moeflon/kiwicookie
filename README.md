@@ -1,7 +1,7 @@
 # kiwicookie
 Dutch Cookie Law Script  
 <sub>We are not responsable for any damage created or not prevented by this script</sub>    
-![License](http://i.creativecommons.org/l/by-sa/3.0/88x31.png)
+![License](http://i.creativecommons.org/l/by-nc/3.0/88x31.png)
 
 ## Installation
 Just copy the files into the root of your website. If .htaccess already exists, copy the contents of the kiwicookie htaccess and add it to the top of your existing file. 
