@@ -63,7 +63,8 @@ The statements and warnings we already described in the previous paragraph are d
 
 ### Layout
 The default theme is 'Oreo', but you can also switch to 'clean'. If your theme setting is set to 'clean', you can directly edit the css and html inside the lang folder. We are currently making more themes, but if you want to make one for us, please send it as a pull request. Themes are located inside the 'themes' folder (found in 'script/lang').    
-[Learn how to make themes for kiwicookie](https://github.com/kiwiboom/kiwicookie/wiki/Create-Themes)
+[Learn how to make themes for kiwicookie](https://github.com/kiwiboom/kiwicookie/wiki/Create-Themes)    
+[List of delivered themes](https://github.com/kiwiboom/kiwicookie/wiki/Current-Themes)
 
 ## License
 This script uses the [Creative Commons Attribution-NonCommercial 3.0 Unported license](http://creativecommons.org/licenses/by-nc/3.0/legalcode). You can find an easy readable and clear explanation of the license [here](http://creativecommons.org/licenses/by-nc/3.0/). If you want to use this script for commercial purposes you can [contact us](mailto:info@lexerim.nl).
