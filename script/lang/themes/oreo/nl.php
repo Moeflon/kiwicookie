@@ -25,7 +25,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <section style="height: 230px; margin-top: 40px;">
+      <section style="height: 210px; margin-top: 40px;">
         <div id="image" style="background: url(&#39;http://f.cl.ly/items/2e0e2x3Y1c3j180c0v3R/image.png&#39;); height: 140px; width: 186px; margin: 0 auto; margin-top: -110px; opacity: 0.8;"></div>
 
 <h2 style="margin-top: -25px" id="installation">Deze site gebruikt cookies</h2>
