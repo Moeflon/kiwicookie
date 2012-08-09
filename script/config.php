@@ -9,7 +9,7 @@ define("KEEP_LOG", true);
 define("WEB_NAME", "kiwicookie");
 
 # Date on wich last changes were applied
-define("CHANGE_DATE", "9/8/2012");
+define("CHANGE_DATE", "9-8-2012");
 
 # Choose language
 # Choises:
