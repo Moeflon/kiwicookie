@@ -15,6 +15,29 @@ RewriteRule . script/cookie.php [L]
 Then chmod the folder 'log' (and its contents) inside 'script'  to `777`. 
 There are a few configuration options in the file config.php, located in the 'script' folder. You can edit these options as you like.
 
+```php
+<?php
+# Redirect if user declines
+define("REDIRECT_URL", "http://google.com");
+
+# Keep log of people that accepted? (Don't forget to set permissions for the log folder to 777)
+define("KEEP_LOG", true);
+
+# Name of your website
+define("WEB_NAME", "kiwicookie");
+
+# Date on wich last changes were applied
+define("CHANGE_DATE", "9/8/2012");
+
+# Choose language
+# Choises:
+# nl (Dutch)
+# en (English)
+# both (Both languages are displayed for multilingual sites)
+define("LANG", "nl");
+?>
+```
+
 ### Apache Limitation
 As for now, you cannot install this script on a non-apache server. This probably won't be a problem if you're hosting on a shared server, because those servers mostly run on apache. Nginx and LightHTTPd versions are coming soon.
 
