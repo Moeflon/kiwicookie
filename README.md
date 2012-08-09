@@ -32,7 +32,7 @@ The script complies with the Dutch cookie regulation, which is an extreme versio
 The Dutch law forces you to have a Privacy Statement, an explanation of the site's usage of Cookies and a cookie warning. We have integrated a sample of those three things in kiwicookie. You can change the name of the website and the effective date dislplayed in the statements in the config.php. If you need to edit more or if you need to edit the warning, you can do this in cookie.php. We are not responsible for the correctness and the completeness of neither your statements nor your warning.
 
 ### Multilingual
-The statements and warnings we already described in the previous paragraph are delivered in Dutch, English and a version that shows both languages. You can choose wich language to display to your users in the config file.
+The statements and warnings we already described in the previous paragraph are delivered in Dutch, English and a version that shows both languages. You can choose which language to display to your users in the config file.
 
 ## License
 This script uses the [Creative Commons Attribution-NonCommercial 3.0 Unported license](http://creativecommons.org/licenses/by-nc/3.0/legalcode). You can find an easy readable and clear explanation of the license [here](http://creativecommons.org/licenses/by-nc/3.0/). If you want to use this script for commercial purposes you can [contact us](mailto:info@lexerim.nl).
