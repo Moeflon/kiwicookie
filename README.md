@@ -48,9 +48,9 @@ As for now, you cannot install this script on a non-apache server. This probably
 ## Details
 ### Preview
 You can find 3 links below, one for Dutch, one for English and one for both. Note that the preview scripts don't remember if you have already accepted the agreement. This is because we want you to be able to test the different languages. (The real kiwicookie does remember if users agree.)
-The theme used in these examples is the default theme 'Oreo', you can find a list of all themes including screenshots [here](https://github.com/kiwiboom/kiwicookie/wiki/Current-Themes).
-[Both Preview](http://kiwicookie.lexerim.nl/preview/both)
-[Dutch Preview](http://kiwicookie.lexerim.nl/preview/nl)
+The theme used in these examples is the default theme 'Oreo', you can find a list of all themes including screenshots [here](https://github.com/kiwiboom/kiwicookie/wiki/Current-Themes).    
+[Both Preview](http://kiwicookie.lexerim.nl/preview/both)    
+[Dutch Preview](http://kiwicookie.lexerim.nl/preview/nl)    
 [English Preview](http://kiwicookie.lexerim.nl/preview/en)
 
 ### Does it work with my site?
