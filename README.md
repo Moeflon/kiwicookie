@@ -28,5 +28,8 @@ Kiwicookie uses nothing more than htaccess and PHP. The htaccess file rewrites a
 ### Cookie Law
 The script complies with the Dutch cookie regulation, which is an extreme version of the EU version. In contrast to the EU cookie regulation it forces you to use an opt-in instead of an opt-out. It's also required to ask permission for external tools like Google Analytics and Google AdSense. You cannot set any cookies before you have explicit permission. The only good way to do that is to place a wall before your website so that the visitor cannot visit the website before he accepts cookies and analytics tools.
 
+### Statements
+The Dutch law forces you to have a Privacy Statement and an explanation of the site usage of Cookies, we've integrated a sample of both. You need to change the name of the website and the effective date in the config.php. If you need to edit more, you can do this in cookie.php. We are not responsible for the correctness and the completeness of your statements.
+
 ## License
 This script uses the [Creative Commons Attribution-NonCommercial 3.0 Unported license](http://creativecommons.org/licenses/by-nc/3.0/legalcode). You can find an easy readable and clear explanation of the license [here](http://creativecommons.org/licenses/by-nc/3.0/). If you want to use this script for commercial purposes you can [contact us](mailto:info@lexerim.nl).
