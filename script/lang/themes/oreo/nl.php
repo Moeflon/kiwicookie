@@ -28,7 +28,7 @@
       <section style="height: 230px; margin-top: 40px;">
         <div id="image" style="background: url(&#39;http://f.cl.ly/items/2e0e2x3Y1c3j180c0v3R/image.png&#39;); height: 140px; width: 186px; margin: 0 auto; margin-top: -110px; opacity: 0.8;"></div>
 
-<h2 style="margin-top: -10px" id="installation">Deze site gebruikt cookies</h2>
+<h2 style="margin-top: -25px" id="installation">Deze site gebruikt cookies</h2>
 
 <p>Om deze website goed te laten werken en onze website te kunnen optimaliseren op uw beleving plaatsen wij kleine bestanden op uw computer (zogenaamde cookies) en analyseren wij het websitegebruik. Een zeer groot deel van de websites doen dit. Nieuwe wetgeving verplicht ons u hiervoor toestemming te vragen. U kunt <a href="#privacy" onClick="show()">hier</a> lezen hoe wij met uw privacy omgaan en <a href="#cookies" onClick="show()">hier</a> kunt u meer informatie vinden over cookies.</p>
 
