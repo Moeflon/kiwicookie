@@ -103,5 +103,11 @@ else {
 }
 
 // Include content
-include($currentDir."/lang/".LANG.".php");
+// Check if theme
+if(THEME == "clean") {
+	include($currentDir."/lang/".LANG.".php");
+}
+else {
+	include($currentDir."/lang/themes/".THEME."/".LANG.".php");
+}
 ?>
