@@ -32,11 +32,11 @@
 
 <p>Om deze website goed te laten werken onze website te kunnen optimaliseren op uw beleving plaatsen wij kleine bestanden op uw computer (zogenaamde cookies) en analyseren wij het websitegebruik. Een zeer groot deel van de websites doen dit. Nieuwe wetgeving verplicht ons u hiervoor toestemming te vragen. U kunt <a href="#privacy" onClick="show()">hier</a> lezen hoe wij met uw privacy omgaan en <a href="#cookies" onClick="show()">hier</a> kunt u meer informatie vinden over cookies.</p>
 
-<hr/>
+<div style="background: url('http://kiwiboom.github.com/kiwicookie/images/hr.gif');border: 0;height: 11px;margin-bottom:20px;"></div>
 
 <div style="margin: 0 auto; margin-top: -15px; margin-bottom: 5px; width: 350px;" id="links"><a style="float: left;" href="<?php echo $current."/cookie_policy?a"; ?>">Ik ga akkoord</a><a style="float: right;" href="<?php echo $current."/cookie_policy?d"; ?>">Ik ga niet akkoord</a><br/></div>
 
-<hr/>
+<div style="background: url('http://kiwiboom.github.com/kiwicookie/images/hr.gif');border: 0;height: 11px;margin-bottom:20px;"></div>
 <div class="hidden">
 <div id="privacy">
 	<h2>Privacy Statement, laatst aangepast op <?php echo CHANGE_DATE; ?></h2>
