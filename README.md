@@ -46,6 +46,13 @@ define("THEME", "oreo");
 As for now, you cannot install this script on a non-apache server. This probably won't be a problem if you're hosting on a shared server, because those servers mostly run on apache. Nginx and LightHTTPd versions are coming soon.
 
 ## Details
+### Preview
+You can find 3 links below, one for Dutch, one for English and one for both. Note that the preview scripts don't remember if you have already accepted the agreement. This is because we want you to be able to test the different languages. (The real kiwicookie does remember if users agree.)
+The theme used in these examples is the default theme 'Oreo', you can find a list of all themes including screenshots [here](https://github.com/kiwiboom/kiwicookie/wiki/Current-Themes).
+[Both Preview](http://kiwicookie.lexerim.nl/preview/both)
+[Dutch Preview](http://kiwicookie.lexerim.nl/preview/nl)
+[English Preview](http://kiwicookie.lexerim.nl/preview/en)
+
 ### Does it work with my site?
 Yes it does. It works on any website, including sites powered by CMS' like WordPress and Joomla. If you do however run into any problems, you can always post your error as an [issue on GitHub](https://github.com/kiwiboom/kiwicookie/issues).
 
