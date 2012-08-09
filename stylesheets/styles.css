@@ -638,6 +638,7 @@ td:first-child {
 }
 
 hr {
+  border: solid 0px rgba(0,0,0,0.0);
   border: 0;
   outline: none;
   height: 11px;
