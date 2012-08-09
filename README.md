@@ -35,6 +35,10 @@ define("CHANGE_DATE", "9/8/2012");
 # en (English)
 # both (Both languages are displayed for multilingual sites)
 define("LANG", "nl");
+
+# Choose a theme, themes are available in the themes folder, found inside 'lang'
+# Default theme is 'Oreo', if you set 'clean' as theme, the files inside lang (en.php, nl.php, both.php and css/style.php) will be loaded. You can edit these files to make them match your website layout.
+define("THEME", "oreo");
 ?>
 ```
 
@@ -56,6 +60,9 @@ The Dutch law forces you to have a Privacy Statement, an explanation of the site
 
 ### Multilingual
 The statements and warnings we already described in the previous paragraph are delivered in Dutch, English and a version that shows both languages. You can choose which language to display to your users in the config file.
+
+### Layout
+The default theme is 'Oreo', but you can also switch to 'clean'. If your theme setting is set to 'clean', you can directly edit the css and html inside the lang folder. We are currently making more themes, but if you want to make one for us, please send it as a pull request. Themes are located inside the 'themes' folder (found in 'script/lang').
 
 ## License
 This script uses the [Creative Commons Attribution-NonCommercial 3.0 Unported license](http://creativecommons.org/licenses/by-nc/3.0/legalcode). You can find an easy readable and clear explanation of the license [here](http://creativecommons.org/licenses/by-nc/3.0/). If you want to use this script for commercial purposes you can [contact us](mailto:info@lexerim.nl).
