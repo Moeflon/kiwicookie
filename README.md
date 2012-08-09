@@ -1,5 +1,5 @@
 # kiwicookie
-Dutch Cookie Law Script (Text is currently in Dutch, English version coming soon)  
+Dutch Cookie Law Script  
 <sub>We are not responsable for any damage created or not prevented by this script</sub>
 ## Installation
 Just copy the files into the root of your website. If .htaccess already exists, copy the contents of the kiwicookie htaccess and add it to the top of your existing file. 
@@ -28,8 +28,11 @@ Kiwicookie uses nothing more than htaccess and PHP. The htaccess file rewrites a
 ### Cookie Law
 The script complies with the Dutch cookie regulation, which is an extreme version of the EU version. In contrast to the EU cookie regulation it forces you to use an opt-in instead of an opt-out. It's also required to ask permission for external tools like Google Analytics and Google AdSense. You cannot set any cookies before you have explicit permission. The only good way to do that is to place a wall before your website so that the visitor cannot visit the website before he accepts cookies and analytics tools.
 
-### Statements
-The Dutch law forces you to have a Privacy Statement and an explanation of the site usage of Cookies, we've integrated a sample of both. You need to change the name of the website and the effective date in the config.php. If you need to edit more, you can do this in cookie.php. We are not responsible for the correctness and the completeness of your statements.
+### Statements and warnings
+The Dutch law forces you to have a Privacy Statement, an explanation of the site's usage of Cookies and a cookie warning. We have integrated a sample of those three things in kiwicookie. You can change the name of the website and the effective date dislplayed in the statements in the config.php. If you need to edit more or if you need to edit the warning, you can do this in cookie.php. We are not responsible for the correctness and the completeness of neither your statements nor your warning.
+
+### Multilingual
+The statements and warnings we already described in the previous paragraph are delivered in Dutch, English and a version that shows both languages. You can choose wich language to display to your users in the config file.
 
 ## License
 This script uses the [Creative Commons Attribution-NonCommercial 3.0 Unported license](http://creativecommons.org/licenses/by-nc/3.0/legalcode). You can find an easy readable and clear explanation of the license [here](http://creativecommons.org/licenses/by-nc/3.0/). If you want to use this script for commercial purposes you can [contact us](mailto:info@lexerim.nl).
