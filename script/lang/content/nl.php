@@ -3,9 +3,9 @@ if(LANG == "both") {
 	$prefix = "NL_";
 }
 
-define($prefix."WARNING_TITLE", "Deze site gebruikt cookies");
+define($prefix."WARNING_TITLE1", "Deze site gebruikt cookies");
 
-define($prefix."WARNING_P", "<p>Om deze website goed te laten werken en onze website te kunnen optimaliseren op uw beleving plaatsen wij kleine bestanden op uw computer (zogenaamde cookies) en analyseren wij het websitegebruik. Een zeer groot deel van de websites doen dit. Nieuwe wetgeving verplicht ons u hiervoor toestemming te vragen. U kunt <a href=\"#privacy\" onClick=\"show()\">hier</a> lezen hoe wij met uw privacy omgaan en <a href=\"#cookies\" onClick=\"show()\">hier</a> kunt u meer informatie vinden over cookies.</p>");
+define($prefix."WARNING_P1", "Om deze website goed te laten werken en onze website te kunnen optimaliseren op uw beleving plaatsen wij kleine bestanden op uw computer (zogenaamde cookies) en analyseren wij het websitegebruik. Een zeer groot deel van de websites doen dit. Nieuwe wetgeving verplicht ons u hiervoor toestemming te vragen. U kunt <a href=\"#privacy\" onClick=\"show()\">hier</a> lezen hoe wij met uw privacy omgaan en <a href=\"#cookies\" onClick=\"show()\">hier</a> kunt u meer informatie vinden over cookies.");
 
 define($prefix."PRIVACY_TITLE1", "Privacy Statement, laatst aangepast op ".CHANGE_DATE);
 
@@ -40,3 +40,42 @@ define($prefix."PRIVACY_P8", "Wij hebben graag dat onze website vaker wordt bezo
 define($prefix."PRIVACY_TITLE9", "Derden");
 
 define($prefix."PRIVACY_P9", "Persoonsgegevens worden nooit met derden gedeeld anders dan die in dit document worden beschreven.");
+
+define($prefix."PRIVACY_TITLE10", "Cookies");
+
+define($prefix."PRIVACY_P10", "Om deze website goed te laten functioneren, onze website te kunnen optimaliseren op uw beleving plaatsen wij kleine bestanden op uw computer (zogenoemde cookies) en analyseren wij het websitegebruik. Het merendeel  van de websites doet dit. Uitgebreidere informatie over cookies en hoe wij hiermee omgaan vind u in ons <a href=\"#cookies\">cookiestatement</a>.");
+
+define($prefix."PRIVACY_TITLE11", "Vaststelling en veranderingen");
+
+define($prefix."PRIVACY_P11", "Dit document is vastgesteld op ".CHANGE_DATE." en kan op ieder gewenst moment worden gewijzigd. Deze wijzigingen gaan per direct in. Wijzigingen worden op onze website gepubliceerd.");
+
+define($prefix."COOKIES_TITLE1", "Cookies");
+
+define($prefix."COOKIES_TITLE2", "Wat zijn cookies?");
+
+define($prefix."COOKIES_P2", "Cookies zijn kleine bestanden die op uw computer worden opgeslagen.");
+
+define($prefix."COOKIES_TITLE3", "Waar kunnen cookies voor worden gebruikt?");
+
+define($prefix."COOKIES_P3", "Cookies kunnen voor verschillende dingen worden gebruikt. Een aantal voorbeelden zijn:");
+
+define($prefix."COOKIES_LI1", "Het analyseren van het gebruik van websites.");
+
+define($prefix."COOKIES_LI2", "Advertenties op een persoon afstemmen.");
+
+define($prefix."COOKIES_LI3", "Zorgen dat u berichten kunt delen op sociale media zoals Twitter en Facebook.");
+
+define($prefix."COOKIES_TITLE4", "Waar gebruiken wij cookies voor, en welke diensten gebruiken wij?");
+
+define($prefix."COOKIES_LI4", "Cookies voor functionaliteit van de website, om bijvoorbeeld uw gebruikersnaam te bewaren.");
+
+define($prefix."COOKIES_LI5", "Het analyseren van het gebruik van de website om deze optimaal te kunnen afstemmen op de gebruikers. Hiervoor gebruiken wij Google Analytics.");
+
+define($prefix."COOKIES_LI6", "Integratie met sociale netwerken door ondermeer tweets te laten zien en de mogelijkheid te bieden artikelen te delen. We ondersteunen ondermeer Facebook en Twitter.");
+
+define($prefix."COOKIES_LI7", "Het plaatsen van advertenties, hiervoor gebruiken we de Google Adsense dienst.");
+
+define($prefix."COOKIES_TITLE5", "Vaststelling en veranderingen");
+
+define($prefix."COOKIES_P5", "Dit document is vastgesteld op ".CHANGE_DATE." en kan op ieder gewenst moment worden gewijzigd. Deze wijzigingen gaan per direct in. Wijzigingen worden op onze website gepubliceerd.");
+
