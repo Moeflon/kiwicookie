@@ -10,9 +10,7 @@
     	<title><?php echo WEB_NAME; ?> - <?php echo WARNING_TITLE1; ?></title>
     	
     	<link rel="stylesheet" href="http://kiwiboom.github.com/kiwicookie/stylesheets/styles.css">
-    	<link rel="stylesheet" href="http://kiwiboom.github.com/kiwicookie/stylesheets/styles.css">
-    	
-    	
+    	<link rel="stylesheet" href="http://kiwiboom.github.com/kiwicookie/stylesheets/styles.css">   	
     	
     	<style>
     		.hidden {
@@ -30,7 +28,7 @@
 	    </script>
   </head>
   <body>
-    <div class="wrapper">
+  <div class="wrapper">
     <?php if(isMobile()): ?>
       	<section style="height: 100%; margin-top: -2px;">
     <?php else: ?>
@@ -80,7 +78,7 @@
 			<h4 style="margin-bottom: -3px; margin-top: 10px;"><?php echo PRIVACY_TITLE10; ?></h4>
 				<?php echo PRIVACY_P10; ?>			
 			<h4 style="margin-bottom: -3px; margin-top: 10px;"><?php echo PRIVACY_TITLE11 ?></h4>
-				<?php echo PRIVACY_TITLE11; ?>
+				<?php echo PRIVACY_P11; ?>
 	</div>
 	
 	<hr style="margin-top: 20px;"/>

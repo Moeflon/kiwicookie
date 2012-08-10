@@ -1,3 +1,4 @@
+
 <?php
 if(LANG == "both") {
 	$prefix = "NL_";
@@ -10,7 +11,7 @@ define($prefix."WARNING_DECLINE", "Ik ga niet akkoord");
 
 define($prefix."WARNING_TITLE1", "Deze site gebruikt cookies");
 
-define($prefix."WARNING_P1", "Om deze website goed te laten werken en onze website te kunnen optimaliseren op uw beleving plaatsen wij kleine bestanden op uw computer (zogenaamde cookies) en analyseren wij het websitegebruik. Een zeer groot deel van de websites doen dit. Nieuwe wetgeving verplicht ons u hiervoor toestemming te vragen. U kunt <a href=\"#privacy$suffix\" onClick=\"show$suffix()\">hier</a> lezen hoe wij met uw privacy omgaan en <a href=\"#cookies$suffix\" onClick=\"show$suffix()\">hier</a> kunt u meer informatie vinden over cookies.");
+define($prefix."WARNING_P1", "Om deze website goed te laten werken en onze website te kunnen optimaliseren op uw beleving plaatsen wij kleine bestanden op uw computer (zogenaamde cookies) en analyseren wij het websitegebruik. Een zeer groot deel van de websites doen dit. Nieuwe wetgeving verplicht ons u hiervoor toestemming te vragen. U kunt <a href=\"#privacy$suffix\" onClick=\"show$suffix('privacy$suffix')\">hier</a> lezen hoe wij met uw privacy omgaan en <a href=\"#cookies$suffix\" onClick=\"show$suffix('cookies$suffix')\">hier</a> kunt u meer informatie vinden over cookies.");
 
 define($prefix."PRIVACY_TITLE1", "Privacy Statement, laatst aangepast op ".CHANGE_DATE);
 
@@ -48,7 +49,7 @@ define($prefix."PRIVACY_P9", "Persoonsgegevens worden nooit met derden gedeeld a
 
 define($prefix."PRIVACY_TITLE10", "Cookies");
 
-define($prefix."PRIVACY_P10", "Om deze website goed te laten functioneren, onze website te kunnen optimaliseren op uw beleving plaatsen wij kleine bestanden op uw computer (zogenoemde cookies) en analyseren wij het websitegebruik. Het merendeel  van de websites doet dit. Uitgebreidere informatie over cookies en hoe wij hiermee omgaan vind u in ons <a href=\"#cookies\">cookiestatement</a>.");
+define($prefix."PRIVACY_P10", "Om deze website goed te laten functioneren, onze website te kunnen optimaliseren op uw beleving plaatsen wij kleine bestanden op uw computer (zogenoemde cookies) en analyseren wij het websitegebruik. Het merendeel  van de websites doet dit. Uitgebreidere informatie over cookies en hoe wij hiermee omgaan vind u in ons <a href=\"#cookies$suffix\">cookiestatement</a>.");
 
 define($prefix."PRIVACY_TITLE11", "Vaststelling en veranderingen");
 
