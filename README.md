@@ -11,7 +11,7 @@ RewriteEngine On
 # Condition
 RewriteCond %{HTTP_COOKIE} !kiwicookie=kiwicookieVal [NC]
 # Just display cookie page, php will handle rest
-RewriteRule . script/cookie.php [L]
+RewriteRule . kiwicookie/cookie.php [L]
 ```
 
 Then chmod the folder 'log' (and its contents) inside 'script'  to `777`. 
@@ -71,7 +71,7 @@ The Dutch law forces you to have a Privacy Statement, an explanation of the site
 The statements and warnings we already described in the previous paragraph are delivered in Dutch, English and a version that shows both languages. You can choose which language to display to your users in the config file.
 
 ### Layout
-The default theme is 'Oreo', but you can also switch to 'clean'. If your theme setting is set to 'clean', you can directly edit the css and html inside the lang folder. We are currently making more themes, but if you want to make one for us, please send it as a pull request. Themes are located inside the 'themes' folder (found in 'script/lang').    
+The default theme is 'Oreo', but you can also switch to 'clean' and 'cloreo'. We are currently making more themes, but if you want to make one for us, please send it as a pull request. Themes are located inside the 'themes' folder (found in 'kiwicookie').    
 [Learn how to make themes for kiwicookie](https://github.com/kiwiboom/kiwicookie/wiki/Create-Themes)    
 [List of delivered themes](https://github.com/kiwiboom/kiwicookie/wiki/Current-Themes)
 
