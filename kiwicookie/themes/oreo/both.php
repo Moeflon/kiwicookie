@@ -117,7 +117,7 @@
 			<h4 style="margin-bottom: -3px; margin-top: 10px;"><?php echo EN_PRIVACY_TITLE10; ?></h4>
 				<?php echo EN_PRIVACY_P10; ?>			
 			<h4 style="margin-bottom: -3px; margin-top: 10px;"><?php echo EN_PRIVACY_TITLE11 ?></h4>
-				<?php echo EN_PRIVACY_TITLE11; ?>
+				<?php echo EN_PRIVACY_P11; ?>
 	</div>
 	
 	<hr style="margin-top: 20px;"/>
@@ -169,7 +169,7 @@
 			<h4 style="margin-bottom: -3px; margin-top: 10px;"><?php echo NL_PRIVACY_TITLE10; ?></h4>
 				<?php echo NL_PRIVACY_P10; ?>			
 			<h4 style="margin-bottom: -3px; margin-top: 10px;"><?php echo NL_PRIVACY_TITLE11 ?></h4>
-				<?php echo NL_PRIVACY_TITLE11; ?>
+				<?php echo NL_PRIVACY_P11; ?>
 	</div>
 	
 	<hr style="margin-top: 20px;"/>
