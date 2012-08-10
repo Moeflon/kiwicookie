@@ -25,15 +25,25 @@
   </head>
   <body>
     <div class="wrapper">
-      <section style="height: 223px; margin-top: 40px;">
+    <?php if(isMobile()): ?>
+      	<section style="height: 100%; margin-top: 40px;">
+    <?php else: ?>
+    	<section style="height: 223px; margin-top: 40px;">
+    <?php endif; ?>
         <div id="image" style="background: url(&#39;http://f.cl.ly/items/2e0e2x3Y1c3j180c0v3R/image.png&#39;); height: 140px; width: 186px; margin: 0 auto; margin-top: -115px; opacity: 0.8;"></div>
 
 <h2 style="margin-top: -5px" id="installation">This site uses cookies</h2>
 
 <p>In order for this site to work properly, and in order to evaluate and improve this site we need to store small files (the so-called cookies) on your computer and analyze your website usage. The majority of all website do this, however, Dutch laws require us to obtain your constent first. You can read our privacy statement <a href="#privacy" onClick="show()">here</a> and information about cookies and our website <a href="#cookies" onClick="show()">here</a></p>
-<div style="background: url('http://kiwiboom.github.com/kiwicookie/images/hr.gif');border: 0;height: 11px;margin-bottom:20px;"></div>
-<div style="margin: 0 auto; margin-top: -15px; margin-bottom: 5px; width: 350px;" id="links"><a style="float: left;" href="<?php echo $current."/cookie_policy?a"; ?>">I accept</a><a style="float: right;" href="<?php echo $current."/cookie_policy?d"; ?>">I don't accept</a><br/></div>
-<div style="background: url('http://kiwiboom.github.com/kiwicookie/images/hr.gif');border: 0;height: 11px;margin-bottom:20px;"></div>
+<?php if(isMobile()): ?>
+	<hr/>
+	<div style="margin: 0 auto; margin-top: -15px; margin-bottom: 5px; width: 100%;" id="links"><a style="float: left;" href="<?php echo $current."/cookie_policy?a"; ?>">I accept</a><a style="float: right;" href="<?php echo $current."/cookie_policy?d"; ?>">I don't accept</a><br/></div>
+	<hr/>
+<?php else: ?>
+	<div style="background: url('http://kiwiboom.github.com/kiwicookie/images/hr.gif');border: 0;height: 11px;margin-bottom:20px;"></div>
+	<div style="margin: 0 auto; margin-top: -15px; margin-bottom: 5px; width: 350px;" id="links"><a style="float: left;" href="<?php echo $current."/cookie_policy?a"; ?>">I accept</a><a style="float: right;" href="<?php echo $current."/cookie_policy?d"; ?>">I don't accept</a><br/></div>
+	<div style="background: url('http://kiwiboom.github.com/kiwicookie/images/hr.gif');border: 0;height: 11px;margin-bottom:20px;"></div>
+<?php endif; ?>
 <div class="hidden">
 <div id="privacy">
 	<h2>Privacy, version of <?php echo CHANGE_DATE; ?></h2>

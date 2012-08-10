@@ -35,24 +35,38 @@
   </head>
   <body>
     <div class="wrapper">
-      <section style="height: 475px; margin-top: 40px;">
+    <?php if(isMobile()): ?>
+    	<section style="height: 100%; margin-top: 40px;">
+    <?php else: ?>
+    	<section style="height: 475px; margin-top: 40px;">
+    <?php endif; ?>      
         <div id="image" style="background: url(&#39;http://f.cl.ly/items/2e0e2x3Y1c3j180c0v3R/image.png&#39;); height: 140px; width: 186px; margin: 0 auto; margin-top: -115px; opacity: 0.8;"></div>
 
 <h2 style="margin-top: -5px" id="installation">This site uses cookies</h2>
 
 <p>In order for this site to work properly, and in order to evaluate and improve this site we need to store small files (the so-called cookies) on your computer and analyze your website usage. The majority of all website do this, however, Dutch laws require us to obtain your constent first. You can read our privacy statement <a href="#privacy_en" onClick="show_en()">here</a> and information about cookies and our website <a href="#cookies_en" onClick="show_en()">here</a></p>
-<div style="background: url('http://kiwiboom.github.com/kiwicookie/images/hr.gif');border: 0;height: 11px;margin-bottom:20px;"></div>
-<div style="margin: 0 auto; margin-top: -15px; margin-bottom: 5px; width: 350px;" id="links"><a style="float: left;" href="<?php echo $current."/cookie_policy?a"; ?>">I accept</a><a style="float: right;" href="<?php echo $current."/cookie_policy?d"; ?>">I don't accept</a><br/></div>
-<div style="background: url('http://kiwiboom.github.com/kiwicookie/images/hr.gif');border: 0;height: 11px;margin-bottom:20px;"></div>
+<?php if(isMobile()): ?>
+	<hr/>
+	<div style="margin: 0 auto; margin-top: -15px; margin-bottom: 5px; width: 100%;" id="links"><a style="float: left;" href="<?php echo $current."/cookie_policy?a"; ?>">I accept</a><a style="float: right;" href="<?php echo $current."/cookie_policy?d"; ?>">I don't accept</a><br/></div>
+	<hr/>
+<?php else: ?>
+	<div style="background: url('http://kiwiboom.github.com/kiwicookie/images/hr.gif');border: 0;height: 11px;margin-bottom:20px;"></div>
+	<div style="margin: 0 auto; margin-top: -15px; margin-bottom: 5px; width: 350px;" id="links"><a style="float: left;" href="<?php echo $current."/cookie_policy?a"; ?>">I accept</a><a style="float: right;" href="<?php echo $current."/cookie_policy?d"; ?>">I don't accept</a><br/></div>
+	<div style="background: url('http://kiwiboom.github.com/kiwicookie/images/hr.gif');border: 0;height: 11px;margin-bottom:20px;"></div>
+<?php endif; ?>
 <div style="border: none; border-bottom: solid 1px rgba(0,0,0,0.2); margin-bottom:27px;"></div>
 <h2 style="margin-top: -10px" id="installation">Deze site gebruikt cookies</h2>
 
 <p>Om deze website goed te laten werken en onze website te kunnen optimaliseren op uw beleving plaatsen wij kleine bestanden op uw computer (zogenaamde cookies) en analyseren wij het websitegebruik. Een zeer groot deel van de websites doen dit. Nieuwe wetgeving verplicht ons u hiervoor toestemming te vragen. U kunt <a href="#privacy_nl" onClick="show_nl()">hier</a> lezen hoe wij met uw privacy omgaan en <a href="#cookies_nl" onClick="show_nl()">hier</a> kunt u meer informatie vinden over cookies en hoe wij daar mee omgaan.</p>
-<div style="background: url('http://kiwiboom.github.com/kiwicookie/images/hr.gif');border: 0;height: 11px;margin-bottom:20px;"></div>
-
-<div style="margin: 0 auto; margin-top: -15px; margin-bottom: 5px; width: 350px;" id="links"><a style="float: left;" href="<?php echo $current."/cookie_policy?a"; ?>">Ik ga akkoord</a><a style="float: right;" href="<?php echo $current."/cookie_policy?d"; ?>">Ik ga niet akkoord</a><br/></div>
-
-<div style="background: url('http://kiwiboom.github.com/kiwicookie/images/hr.gif');border: 0;height: 11px;margin-bottom:20px;"></div>
+<?php if(isMobile()): ?>
+	<hr/>
+	<div style="margin: 0 auto; margin-top: -15px; margin-bottom: 5px; width: 100%;" id="links"><a style="float: left;" href="<?php echo $current."/cookie_policy?a"; ?>">Ik ga akkoord</a><a style="float: right;" href="<?php echo $current."/cookie_policy?d"; ?>">Ik ga niet akkoord</a><br/></div>
+	<hr/>
+<?php else: ?>
+	<div style="background: url('http://kiwiboom.github.com/kiwicookie/images/hr.gif');border: 0;height: 11px;margin-bottom:20px;"></div>
+	<div style="margin: 0 auto; margin-top: -15px; margin-bottom: 5px; width: 350px;" id="links"><a style="float: left;" href="<?php echo $current."/cookie_policy?a"; ?>">Ik ga akkoord</a><a style="float: right;" href="<?php echo $current."/cookie_policy?d"; ?>">Ik ga niet akkoord</a><br/></div>
+	<div style="background: url('http://kiwiboom.github.com/kiwicookie/images/hr.gif');border: 0;height: 11px;margin-bottom:20px;"></div>
+<?php endif; ?>
 
 <div class="hidden_en">
 <div id="privacy_en">
