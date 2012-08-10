@@ -1,4 +1,3 @@
-<style type="text/css">
 @font-face {
   font-family: 'Quattrocento Sans';
   src: url("../fonts/quattrocentosans-bold-webfont.eot");
@@ -1006,4 +1005,4 @@ footer {
     width: auto;
   }
 }
-</style>
+

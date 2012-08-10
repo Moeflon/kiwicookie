@@ -20,6 +20,7 @@
 	    	display: none;
     	}
     </style>
+    <?php include("$currentDir/themes/oreo/css/style.php"); ?>
     <script>
     	function show_nl() {
     		$('#bottomhr_nl').css('margin-bottom', '20px');
