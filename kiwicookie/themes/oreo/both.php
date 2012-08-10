@@ -175,7 +175,7 @@
 	<hr style="margin-top: 20px;"/>
 	
 	<div id="cookies_nl">
-		<h2 style="margin-top: 15px;"><?php echo COOKIES_TITLE1; ?></h2>
+		<h2 style="margin-top: 15px;"><?php echo NL_COOKIES_TITLE1; ?></h2>
 			<h4 style="margin-bottom: -3px; margin-top: 10px;"><?php echo NL_COOKIES_TITLE2; ?></h4>
 				<?php echo NL_COOKIES_P2; ?>
 			<h4 style="margin-bottom: -3px; margin-top: 10px;"><?php echo NL_COOKIES_TITLE3; ?></h4>
