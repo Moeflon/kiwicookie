@@ -3,7 +3,7 @@
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>kiwicookie - Dutch Cookie Law Script</title>
+    <title><?php echo WEB_NAME; ?> - Cookies</title>
     <link rel="stylesheet" href="http://kiwiboom.github.com/kiwicookie/stylesheets/styles.css">
     <link rel="stylesheet" href="http://kiwiboom.github.com/kiwicookie/stylesheets/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
