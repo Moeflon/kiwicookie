@@ -9,6 +9,13 @@ Just copy the files into the root of your website. If .htaccess already exists, 
 ```htaccess
 RewriteEngine On
 # Condition
+
+# Uncomment and edit this is you have errors on your subdomains, you will need to setup kiwicookie on the subdomain seperately 
+# RewriteCond %{HTTP_HOST} !^yoursubdomain.yourdomain.yourextention$ [NC]
+
+# Uncomment this if you want to rewrite the root but the htacces isn't inside root
+# RewriteBase / 
+
 RewriteCond %{HTTP_COOKIE} !kiwicookie=kiwicookieVal [NC]
 # Just display cookie page, php will handle rest
 RewriteRule . kiwicookie/cookie.php [L]
