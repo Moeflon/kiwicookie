@@ -5,7 +5,7 @@
 	<title><?php echo WEB_NAME; ?> - <?php echo WARNING_TITLE1; ?></title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-	<?php include("$currentDir/lang/clean/css/style.php"); ?>
+	<?php include("$currentDir/themes/clean/css/style.php"); ?>
 	<script>
 		function show(elm) {
 			$('#'+elm).fadeIn('slow');
