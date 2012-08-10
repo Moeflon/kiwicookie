@@ -89,7 +89,7 @@
 			<a style="float: left;" href="<?php echo $current."/cookie_policy?a"; ?>"><?php echo NL_WARNING_ACCEPT; ?></a>
 			<a style="float: right;" href="<?php echo $current."/cookie_policy?d"; ?>"><?php echo NL_WARNING_DECLINE; ?></a><br/>
 		</div>
-	<div id="bottomhr_nl" style="background: url('http://kiwiboom.github.com/kiwicookie/images/hr.gif');border: 0;height: 11px;margin-bottom:20px;">
+	<div id="bottomhr_nl" style="background: url('http://kiwiboom.github.com/kiwicookie/images/hr.gif');border: 0;height: 11px;margin-bottom:10px;">
 	</div>
 <?php endif; ?>
 
