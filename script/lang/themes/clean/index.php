@@ -25,9 +25,9 @@
 		<button onclick="window.location='<?php echo $current."/cookie_policy?a"; ?>'"><?php echo WARNING_ACCEPT; ?></button>
 		<button onclick="window.location='<?php echo $current."/cookie_policy?d"; ?>'"><?php echo WARNING_DECLINE; ?></button>
 	</div>
-	
+		
 	<hr/>
-	
+		
 	<div id="privacy">
 		<h1><?php echo PRIVACY_TITLE1; ?></h1>
 		<div class="info" style="font-size:13px;">
@@ -52,7 +52,10 @@
 			<h3><?php echo PRIVACY_TITLE11; ?></h3>
 			<?php echo PRIVACY_P11; ?>
 			<div style="height: 5px;"></div>
-			<button onClick="hide('privacy')">Verberg/Hide</button>
+				
+			<button onClick="hide('privacy')">
+				Verberg/Hide
+			</button>
 		</div>
 	</div>
 
@@ -60,30 +63,28 @@
 		<h1><?php echo COOKIES_TITLE1; ?></h1>
 		<div class="info" style="font-size:13px;">
 			<h3><?php echo COOKIES_TITLE2; ?></h3>
-			<?php echo COOKIES_P2; ?> 
-			
+			<?php echo COOKIES_P2; ?> 		
 			<h3><?php echo COOKIES_TITLE3; ?></h3>
 			<?php echo COOKIES_P3; ?> 
 				<ul>
 					<li><?php echo COOKIES_LI1; ?></li>
 					<li><?php echo COOKIES_LI2; ?></li>
 					<li><?php echo COOKIES_LI3; ?></li>
-				</ul>
-			
+				</ul>		
 			<h3><?php echo COOKIES_TITLE4; ?></h3>
 				<ul>
 					<li><?php echo COOKIES_LI4; ?></li>
 					<li><?php echo COOKIES_LI5; ?></li>
 					<li><?php echo COOKIES_LI6; ?></li>
 					<li><?php echo COOKIES_LI7; ?></li> 
-				</ul>
-			
+				</ul>	
 			<h3><?php echo COOKIES_TITLE5; ?></h3>
 			<?php echo COOKIES_P5; ?>		
 			<div style="height: 5px;"></div>
-			<button onClick="hide('cookies')">Verberg/Hide</button>
+			<button onClick="hide('cookies')">
+				Verberg/Hide
+			</button>
 		</div>
 	</div>
-	
 </body>
 </html>
