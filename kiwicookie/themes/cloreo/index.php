@@ -9,12 +9,15 @@
     	
     	<title><?php echo WEB_NAME; ?> - <?php echo WARNING_TITLE1; ?></title>
     	
+    	<link rel="stylesheet" href="http://kiwiboom.github.com/kiwicookie/stylesheets/styles.css">
+    	<link rel="stylesheet" href="http://kiwiboom.github.com/kiwicookie/stylesheets/styles.css">   	
+    	
     	<style>
     		.hidden {
 	    		display: none;
 	    	}
 	    </style>
-	    <?php include("$currentDir/themes/cloreo/css/style.php"); ?>
+	    
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	    <script>
     		function show() {
