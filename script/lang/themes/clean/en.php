@@ -5,8 +5,7 @@
 	<title>Deze site gebruikt cookies</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-	<?php include("$currentDir/lang/css/style.php"); ?>
-	<script>
+	<?php include("$currentDir/lang/themes/clean/css/style.php"); ?>	<script>
 		function show(elm) {
 			$('#'+elm).fadeIn('slow');
 		}

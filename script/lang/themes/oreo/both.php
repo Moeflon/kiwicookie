@@ -35,10 +35,10 @@
   </head>
   <body>
     <div class="wrapper">
-      <section style="height: 440px; margin-top: 40px;">
-        <div id="image" style="background: url(&#39;http://f.cl.ly/items/2e0e2x3Y1c3j180c0v3R/image.png&#39;); height: 140px; width: 186px; margin: 0 auto; margin-top: -110px; opacity: 0.8;"></div>
+      <section style="height: 475px; margin-top: 40px;">
+        <div id="image" style="background: url(&#39;http://f.cl.ly/items/2e0e2x3Y1c3j180c0v3R/image.png&#39;); height: 140px; width: 186px; margin: 0 auto; margin-top: -115px; opacity: 0.8;"></div>
 
-<h2 style="margin-top: -25px" id="installation">This site uses cookies</h2>
+<h2 style="margin-top: -5px" id="installation">This site uses cookies</h2>
 
 <p>In order for this site to work properly, and in order to evaluate and improve this site we need to store small files (the so-called cookies) on your computer and analyze your website usage. The majority of all website do this, however, Dutch laws require us to obtain your constent first. You can read our privacy statement <a href="#privacy_en" onClick="show_en()">here</a> and information about cookies and our website <a href="#cookies_en" onClick="show_en()">here</a></p>
 <div style="background: url('http://kiwiboom.github.com/kiwicookie/images/hr.gif');border: 0;height: 11px;margin-bottom:20px;"></div>
