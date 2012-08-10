@@ -2,4 +2,4 @@ RewriteEngine On
 # Condition
 RewriteCond %{HTTP_COOKIE} !kiwicookie=kiwicookieVal [NC]
 # Just display cookie page, php will handle rest
-RewriteRule . script/cookie.php [L]
+RewriteRule . kiwicookie/cookie.php [L]

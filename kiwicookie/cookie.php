@@ -113,18 +113,18 @@ else {
 
 // Include content
 if(LANG == "both") {
-	include($currentDir."/lang/content/nl.php");
-	include($currentDir."/lang/content/en.php");
+	include($currentDir."/lang/nl.php");
+	include($currentDir."/lang/en.php");
 }
 else {
-	include($currentDir."/lang/content/".LANG.".php");
+	include($currentDir."/lang/".LANG.".php");
 }
 
 // Support new themes
-if(file_exists($currentDir."/lang/themes/".THEME."/".LANG.".php")) {
-	include($currentDir."/lang/themes/".THEME."/".LANG.".php");
+if(file_exists($currentDir."/themes/".THEME."/".LANG.".php")) {
+	include($currentDir."/themes/".THEME."/".LANG.".php");
 } 
 else {
-	include($currentDir."/lang/themes/".THEME."/index.php");
+	include($currentDir."/themes/".THEME."/index.php");
 }
 ?>
