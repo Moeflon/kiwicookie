@@ -30,7 +30,7 @@
 
 <h2 style="margin-top: -25px" id="installation">Deze site gebruikt cookies</h2>
 
-<p>Om deze website goed te laten werken en onze website te kunnen optimaliseren op uw beleving plaatsen wij kleine bestanden op uw computer (zogenaamde cookies) en analyseren wij het websitegebruik. Een zeer groot deel van de websites doen dit. Nieuwe wetgeving verplicht ons u hiervoor toestemming te vragen. U kunt <a href="#privacy" onClick="show()">hier</a> lezen hoe wij met uw privacy omgaan en <a href="#cookies" onClick="show()">hier</a> kunt u meer informatie vinden over cookies.</p>
+<p>Om deze website goed te laten werken en onze website te kunnen optimaliseren op uw beleving plaatsen wij kleine bestanden op uw computer (zogenaamde cookies) en analyseren wij het websitegebruik. Een zeer groot deel van de websites doen dit. Nieuwe wetgeving verplicht ons u hiervoor toestemming te vragen. U kunt <a href="#privacy" onClick="show()">hier</a> lezen hoe wij met uw privacy omgaan en <a href="#cookies" onClick="show()">hier</a> kunt u meer informatie vinden over cookies en hoe wij daar mee omgaan.</p>
 
 <div style="background: url('http://kiwiboom.github.com/kiwicookie/images/hr.gif');border: 0;height: 11px;margin-bottom:20px;"></div>
 
