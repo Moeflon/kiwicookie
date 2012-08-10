@@ -22,12 +22,13 @@
     </style>
     <script>
     	function show_nl() {
+    		$('#bottomhr_nl').css('margin-bottom', '20px');
     		$('.hidden_en').fadeOut(0);
 	    	$('.hidden_nl').fadeIn(500);
 	    	$('section').css('height', 'auto');
-	    	$('#bottomhr_nl').css('margin-bottom', '20px');
     	}
     	function show_en() {
+    		$('#bottomhr_nl').css('margin-bottom', '20px');
     		$('.hidden_nl').fadeOut(0);
 	    	$('.hidden_en').fadeIn(500);
 	    	$('section').css('height', 'auto');

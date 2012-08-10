@@ -1,6 +1,7 @@
 <?php
 if(LANG == "both") {
 	$prefix = "EN_";
+	$suffix = "_en";
 }
 
 define($prefix."WARNING_ACCEPT", "I accept");
@@ -9,7 +10,7 @@ define($prefix."WARNING_DECLINE", "I don't accept");
 
 define($prefix."WARNING_TITLE1", "This site uses cookies");
 
-define($prefix."WARNING_P1", "In order for this site to work properly, and in order to evaluate and improve this site we need to store small files (the so-called cookies) on your computer and analyze your website usage. The majority of all website do this, however, Dutch laws require us to obtain your constent first. You can read our privacy statement <a href=\"#privacy\" onClick=\"show()\">here</a> and information about cookies and our website <a href=\"#cookies\" onClick=\"show()\">here</a>");
+define($prefix."WARNING_P1", "In order for this site to work properly, and in order to evaluate and improve this site we need to store small files (the so-called cookies) on your computer and analyze your website usage. The majority of all website do this, however, Dutch laws require us to obtain your constent first. You can read our privacy statement <a href=\"#privacy$suffix\" onClick=\"show$suffix()\">here</a> and information about cookies and our website <a href=\"#cookies$suffix\" onClick=\"show$suffix()\">here</a>");
 
 define($prefix."PRIVACY_TITLE1", "Privacy, version of ".CHANGE_DATE);
 
