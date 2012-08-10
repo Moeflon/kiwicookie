@@ -1,10 +1,15 @@
 <?php
 // Real IP Finder
 function find_ip() {
+	// Loop true ip-related keys
     foreach(array('HTTP_CLIENT_IP', 'HTTP_X_FORWARDED_FOR', 'HTTP_X_FORWARDED', 'HTTP_X_CLUSTER_CLIENT_IP', 'HTTP_FORWARDED_FOR', 'HTTP_FORWARDED', 'REMOTE_ADDR') as $key) {
+    	// Check if array key exists on server
         if(array_key_exists($key, $_SERVER) === true) {
+        	// Loop true each and every supplied key and check if it's an IP
             foreach(explode(',', $_SERVER[$key]) as $ip) {
+            	// Check if IP
                 if(filter_var($ip, FILTER_VALIDATE_IP) !== false) {
+                	// Return value (finally)
                     return $ip;
                 }
             }
@@ -120,7 +125,7 @@ else {
 	include($currentDir."/lang/".LANG.".php");
 }
 
-// Support new themes
+// Support new and old themes
 if(file_exists($currentDir."/themes/".THEME."/".LANG.".php")) {
 	include($currentDir."/themes/".THEME."/".LANG.".php");
 } 
