@@ -21,6 +21,14 @@ RewriteCond %{HTTP_COOKIE} !kiwicookie=kiwicookieVal [NC]
 RewriteRule . kiwicookie/cookie.php [L]
 ```
 
+If you're using nginx, you need to put the code below in your virtualhost or default config depending on your server setup. (I think most of the nginx users are smart enough to understand this, if not use Google.)
+
+```nginx
+if ($http_cookie !~ "kiwicookie=kiwicookieVal") {
+  rewrite ^(.*)$ /kiwicookie/cookie.php break;
+}
+```
+
 Then chmod the folder 'log' (and its contents) inside 'script'  to `777`. 
 There are a few configuration options in the file config.php, located in the 'script' folder. You can edit these options as you like.
 
@@ -51,8 +59,8 @@ define("THEME", "oreo");
 ?>
 ```
 
-### Apache Limitation
-As for now, you cannot install this script on a non-apache server. This probably won't be a problem if you're hosting on a shared server, because those servers mostly run on apache. Nginx and LightHTTPd versions are coming soon.
+### Apache/Nginx Limitation
+As for now, you cannot install this script on a non-apache/nginx server. This probably won't be a problem if you're hosting on a shared server, because those servers mostly run on apache. A LightHTTPd version is coming soon.
 
 ## Details
 ### Preview
