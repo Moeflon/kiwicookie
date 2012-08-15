@@ -1,4 +1,7 @@
 <?php
+// Stop errors from showing (PHP 5.3)
+error_reporting(0);
+
 // Real IP Finder
 function find_ip() {
 	// Loop true ip-related keys
