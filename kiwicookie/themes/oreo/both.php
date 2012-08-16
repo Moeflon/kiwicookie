@@ -140,6 +140,7 @@
 							<li><?php echo EN_COOKIES_LI5; ?></li>
 							<li><?php echo EN_COOKIES_LI5; ?></li>
 							<li><?php echo EN_COOKIES_LI6; ?></li>
+							<li><?php echo EN_COOKIES_LI7; ?></li>
 						</ul>		
 			<h4 style="margin-bottom: -3px; margin-top: 10px;"><?php echo EN_COOKIES_TITLE5; ?></h4>
 				<?php echo EN_COOKIES_P5; ?>
@@ -192,6 +193,7 @@
 							<li><?php echo NL_COOKIES_LI5; ?></li>
 							<li><?php echo NL_COOKIES_LI5; ?></li>
 							<li><?php echo NL_COOKIES_LI6; ?></li>
+							<li><?php echo NL_COOKIES_LI7; ?></li>
 						</ul>		
 			<h4 style="margin-bottom: -3px; margin-top: 10px;"><?php echo NL_COOKIES_TITLE5; ?></h4>
 				<?php echo NL_COOKIES_P5; ?>
