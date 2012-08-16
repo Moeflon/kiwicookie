@@ -108,6 +108,7 @@
 							<li><?php echo COOKIES_LI5; ?></li>
 							<li><?php echo COOKIES_LI5; ?></li>
 							<li><?php echo COOKIES_LI6; ?></li>
+							<li><?php echo COOKIES_LI7; ?></li>
 						</ul>		
 			<h4 style="margin-bottom: -3px; margin-top: 10px;"><?php echo COOKIES_TITLE5; ?></h4>
 				<?php echo COOKIES_P5; ?>
