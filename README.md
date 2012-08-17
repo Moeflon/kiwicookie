@@ -91,4 +91,4 @@ The default theme is 'Oreo', but you can also switch to 'clean' and 'cloreo'. We
 [List of delivered themes](https://github.com/kiwiboom/kiwicookie/wiki/Current-Themes)
 
 ## License
-This script uses the [Creative Commons Attribution-NonCommercial 3.0 Unported license](http://creativecommons.org/licenses/by-nc/3.0/legalcode). You can find an easy readable and clear explanation of the license [here](http://creativecommons.org/licenses/by-nc/3.0/). If you want to use this script for commercial purposes you can [contact us](mailto:info@lexerim.nl).
+This script uses [our own license](https://raw.github.com/kiwiboom/kiwicookie/master/LICENSE) based on [Creative Commons Attribution-NonCommercial 3.0 Unported license](http://creativecommons.org/licenses/by-nc/3.0/legalcode). You can find an easy readable and clear explanation of the license [here](http://creativecommons.org/licenses/by-nc/3.0/). If you want to use this script for commercial purposes you can [contact us](mailto:info@lexerim.nl).
