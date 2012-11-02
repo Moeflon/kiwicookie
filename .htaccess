@@ -8,5 +8,11 @@ RewriteEngine On
 # RewriteBase / 
 
 RewriteCond %{HTTP_COOKIE} !kiwicookie=kiwicookieVal [NC]
+RewriteCond %{HTTP_USER_AGENT} !AltaVista
+RewriteCond %{HTTP_USER_AGENT} !Googlebot
+RewriteCond %{HTTP_USER_AGENT} !msnbot
+RewriteCond %{HTTP_USER_AGENT} !Slurp
+RewriteCond %{REQUEST_URI} !theme
+
 # Just display cookie page, php will handle rest
 RewriteRule . kiwicookie/cookie.php [L]
