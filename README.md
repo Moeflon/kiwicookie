@@ -33,7 +33,7 @@ if ($http_cookie !~ "kiwicookie=kiwicookieVal") {
 }
 ```
 
->Then chmod the folder 'log' (and its contents) inside 'script' to 664 (or if that doesn't work, try 775 (could potentially be dangerous if your server is not setup correctly)).
+Then chmod the folder 'log' (and its contents) inside 'script' to 664 (or if that doesn't work, try 775 (could potentially be dangerous if your server is not setup correctly)).
 There are a few configuration options in the file config.php, located in the 'script' folder. You can edit these options as you like.
 
 ```php
