@@ -16,6 +16,11 @@ RewriteEngine On
 # RewriteBase / 
 
 RewriteCond %{HTTP_COOKIE} !kiwicookie=kiwicookieVal [NC]
+RewriteCond %{HTTP_USER_AGENT} !AltaVista
+RewriteCond %{HTTP_USER_AGENT} !Googlebot
+RewriteCond %{HTTP_USER_AGENT} !msnbot
+RewriteCond %{HTTP_USER_AGENT} !Slurp
+RewriteCond %{REQUEST_URI} !theme
 # Just display cookie page, php will handle rest
 RewriteRule . kiwicookie/cookie.php [L]
 ```
@@ -28,7 +33,7 @@ if ($http_cookie !~ "kiwicookie=kiwicookieVal") {
 }
 ```
 
-Then chmod the folder 'log' (and its contents) inside 'script'  to `777`. 
+>Then chmod the folder 'log' (and its contents) inside 'script' to 664 (or if that doesn't work, try 775 (could potentially be dangerous if your server is not setup correctly)).
 There are a few configuration options in the file config.php, located in the 'script' folder. You can edit these options as you like.
 
 ```php
