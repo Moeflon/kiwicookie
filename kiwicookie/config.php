@@ -15,6 +15,7 @@ define("CHANGE_DATE", "9-8-2012");
 # Choises:
 # nl (Dutch)
 # en (English)
+# ext (Extention of domain)
 # both (Both languages are displayed for multilingual sites)
 define("LANG", "nl");
 
