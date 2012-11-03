@@ -4,15 +4,21 @@ RewriteEngine On
 # Uncomment and edit this is you have errors on your subdomains, you will need to setup kiwicookie on the subdomain seperately 
 # RewriteCond %{HTTP_HOST} !^yoursubdomain.yourdomain.yourextention$ [NC]
 
-# Uncomment this if you want to rewrite the root but the htacces isn't inside root
+# Uncomment this if you want to rewrite the root but the htaccess isn't inside root
 # RewriteBase / 
 
 RewriteCond %{HTTP_COOKIE} !kiwicookie=kiwicookieVal [NC]
-RewriteCond %{HTTP_USER_AGENT} !AltaVista
-RewriteCond %{HTTP_USER_AGENT} !Googlebot
-RewriteCond %{HTTP_USER_AGENT} !msnbot
-RewriteCond %{HTTP_USER_AGENT} !Slurp
-RewriteCond %{REQUEST_URI} !theme
+
+# Let bots index your page
+RewriteCond %{HTTP_USER_AGENT} !AltaVista [NC]
+RewriteCond %{HTTP_USER_AGENT} !^Googlebot [NC]
+RewriteCond %{HTTP_USER_AGENT} !^Googlebot-Image [NC]
+RewriteCond %{HTTP_USER_AGENT} !^Googlebot-Mobile [NC][
+RewriteCond %{HTTP_USER_AGENT} !msnbot [NC]
+RewriteCond %{HTTP_USER_AGENT} !Slurp [NC]
+
+# Load assets
+RewriteCond %{REQUEST_URI} !theme [NC]
 
 # Just display cookie page, php will handle rest
 RewriteRule . kiwicookie/cookie.php [L]
