@@ -13,7 +13,7 @@ RewriteCond %{HTTP_COOKIE} !kiwicookie=kiwicookieVal [NC]
 RewriteCond %{HTTP_USER_AGENT} !AltaVista [NC]
 RewriteCond %{HTTP_USER_AGENT} !^Googlebot [NC]
 RewriteCond %{HTTP_USER_AGENT} !^Googlebot-Image [NC]
-RewriteCond %{HTTP_USER_AGENT} !^Googlebot-Mobile [NC][
+RewriteCond %{HTTP_USER_AGENT} !^Googlebot-Mobile [NC]
 RewriteCond %{HTTP_USER_AGENT} !msnbot [NC]
 RewriteCond %{HTTP_USER_AGENT} !Slurp [NC]
 
