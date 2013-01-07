@@ -1,4 +1,4 @@
-Kiwicookie uses software of others, in this file we specify which and include the licenses of those. 
+Kiwicookie uses software of others. In this file is specified what software is used, and the(ir) according licences are included.
 ---
 Normalize.css: https://github.com/necolas/normalize.css/
 License-url: https://github.com/necolas/normalize.css/blob/master/LICENSE.md
