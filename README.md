@@ -69,10 +69,7 @@ As for now, you cannot install this script on a non-apache/nginx server. This pr
 ## Details
 ### Preview
 You can find 3 links below, one for Dutch, one for English and one for both. Note that the preview scripts don't remember if you have already accepted the agreement. This is because we want you to be able to test the different languages. (The real kiwicookie does remember if users agree.)
-The theme used in these examples is the default theme 'Oreo', you can find a list of all themes including screenshots [here](https://github.com/kiwiboom/kiwicookie/wiki/Current-Themes).    
-[Both Preview](http://kiwicookie.lexerim.nl/preview/both)    
-[Dutch Preview](http://kiwicookie.lexerim.nl/preview/nl)    
-[English Preview](http://kiwicookie.lexerim.nl/preview/en)
+The theme used in these examples is the default theme 'Oreo', you can find a list of all themes including screenshots [here](https://github.com/moeflon/kiwicookie/wiki/Current-Themes).    
 
 ### Does it work with my site?
 Yes it does. It works on any website, including sites powered by CMS' like WordPress and Joomla. If you do however run into any problems, you can always post your error as an [issue on GitHub](https://github.com/kiwiboom/kiwicookie/issues).
@@ -91,8 +88,8 @@ The statements and warnings we already described in the previous paragraph are d
 
 ### Layout
 The default theme is 'Oreo', but you can also switch to 'clean' and 'cloreo'. We are currently making more themes, but if you want to make one for us, please send it as a pull request. Themes are located inside the 'themes' folder (found in 'kiwicookie').    
-[Learn how to make themes for kiwicookie](https://github.com/kiwiboom/kiwicookie/wiki/Create-Themes)    
-[List of delivered themes](https://github.com/kiwiboom/kiwicookie/wiki/Current-Themes)
+[Learn how to make themes for kiwicookie](https://github.com/moeflon/kiwicookie/wiki/Create-Themes)    
+[List of delivered themes](https://github.com/moeflon/kiwicookie/wiki/Current-Themes)
 
 ## License
-This script uses [our own license](https://raw.github.com/kiwiboom/kiwicookie/master/LICENSE). If you want to use this script for commercial purposes you can [contact us](mailto:info@lexerim.nl).
+This script uses [our own license](https://raw.github.com/moeflon/kiwicookie/master/LICENSE). If you want to use this script for commercial purposes you can [contact us](mailto:info@lexerim.com).
